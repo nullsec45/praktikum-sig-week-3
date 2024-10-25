@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Tebet Eco Park</name>
+    <Style id="poly-000000-1200-77-nodesc-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d000000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-000000-1200-77-nodesc-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d000000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-000000-1200-77-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-000000-1200-77-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-000000-1200-77-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Tebet Eco Park
+</name>
+      <styleUrl>#poly-000000-1200-77-nodesc</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              106.8509326,-6.2328568,0
+              106.8506778,-6.2334077,0
+              106.8506885,-6.2340849,0
+              106.8510104,-6.2345755,0
+              106.8516058,-6.2349168,0
+              106.852389,-6.2354341,0
+              106.8526465,-6.2358714,0
+              106.852727,-6.2363033,0
+              106.8526304,-6.2366499,0
+              106.8517292,-6.2399082,0
+              106.8527002,-6.2420999,0
+              106.8539018,-6.2420146,0
+              106.8530567,-6.2408217,0
+              106.8529333,-6.2397605,0
+              106.8529924,-6.2392912,0
+              106.8535987,-6.2371816,0
+              106.8532554,-6.2347339,0
+              106.8528316,-6.2348086,0
+              106.8525902,-6.2335447,0
+              106.8513349,-6.233534,0
+              106.851292,-6.2330274,0
+              106.8509326,-6.2328568,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>
